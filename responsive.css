@@ -7,13 +7,25 @@
     }
 
     .header-container {
+        width: 480px;
+        margin-left: 22px;
         display: flex;
         flex-direction: column;
-        width: 480px;
+        margin-bottom: 50px;
     }
 
     .header-text {
         width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .header-banner {
+        overflow: hidden;
+    }
+
+    .header-banner img {
+        width: 100%;
+
     }
 
 
@@ -22,11 +34,10 @@
         width: 100%;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        overflow: hidden;
+        margin-left: 22px;
     }
 
-    .Player {
-        width: 80%;
-        margin: 0 auto;
-    }
+
 
 }
