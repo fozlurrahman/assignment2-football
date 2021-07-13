@@ -1,43 +1,143 @@
 @media only screen and (max-width:480px) {
 
 
-
-    header {
-        width: 480px;
+    .header {
+        width: 360px;
+        height: 695px;
     }
 
     .header-container {
-        width: 480px;
-        margin-left: 22px;
+        width: 360px;
+        margin: 0 auto;
         display: flex;
         flex-direction: column;
-        margin-bottom: 50px;
     }
 
     .header-text {
-        width: 100%;
-        margin-bottom: 50px;
+        width: 278px;
+        margin-left: 16px;
+        margin-top: 112px;
+    }
+
+    .header-text h1 {
+        font-size: 36px;
     }
 
     .header-banner {
-        overflow: hidden;
+        width: 330px;
+        height: 360px;
     }
 
     .header-banner img {
-        width: 100%;
-
+        width: 330px;
+        height: 260px;
+        margin-top: 50px;
+        margin-bottom: 60px;
     }
-
-
 
     .Players {
-        width: 100%;
+        width: 330px;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        overflow: hidden;
-        margin-left: 22px;
     }
 
+    .copa-highlight {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        margin-top: -50px;
+    }
+
+    .copa-text {
+        width: 300px;
+    }
+
+    .copa-text h1 {
+        font-size: 30px;
+    }
+
+    .copa-text p {
+        font-size: 16px;
+        margin-bottom: 26px;
+    }
+
+    .copa-banner {
+        width: 330px;
+        margin-top: 30px;
+    }
+
+    .copa-banner img {
+        width: 120%;
+    }
+
+
+    .about-section {
+
+
+        text-overflow: ellipsis;
+        margin-top: 30px;
+        text-align: center;
+        margin-right: -50px;
+
+    }
+
+    .about-overly {
+
+        margin-right: -50px;
+    }
+
+    .about-section p {
+        width: 330px;
+        height: 50px;
+        overflow: hidden;
+
+        text-overflow: ellipsis;
+        margin-top: 30px;
+        text-align: center
+    }
+
+    .about-btn {
+        display: block;
+        width: 100px;
+        margin: 0 auto;
+    }
+
+    .about-btn:hover {
+        background: none;
+        border: 2px solid #E02C6D;
+        color: #E02C6D;
+        transition: .5s;
+    }
+
+    .contact-section {
+        width: 360px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .contact-banner {
+        display: none;
+    }
+
+    .contact-form {
+        display: block;
+        width: 360px;
+        margin-left: -170px;
+        margin-top: -100px;
+        margin-bottom: 100px;
+    }
+
+    .footer-section {
+        margin-top: 100px;
+        height: 360px;
+        overflow: hidden;
+    }
+
+    .footer-logo img {
+        width: 290px;
+        margin-top: 200px;
+    }
 
 
 }
