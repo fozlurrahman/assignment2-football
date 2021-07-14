@@ -90,7 +90,7 @@ css responsive style for mobile screen
         text-overflow: ellipsis;
         margin-top: 30px;
         text-align: center;
-        width: 482px;
+        max-width: 480px;
         margin-right: -50px;
 
     }
@@ -145,15 +145,21 @@ css responsive style for mobile screen
 
     /* fooeter section */
     .footer-section {
-        width: 480px;
+        max-width: 480px;
         margin-top: 100px;
         height: 360px;
         overflow: hidden;
     }
 
+    .footer-logo {
+        width: 260px;
+
+    }
+
     .footer-logo img {
         width: 260px;
         margin-top: 200px;
+        margin-left: 100px;
     }
 
 
@@ -288,16 +294,22 @@ css responsive style for tab screen
     /* footer section */
     .footer-section {
         margin-top: 200px;
-        max-width: 768;
+        max-width: 768px;
         height: 360px;
         overflow: hidden;
         text-align: center;
         margin-left: 140px;
     }
 
+    .footer-logo {
+        width: 290px;
+        ;
+    }
+
     .footer-logo img {
         width: 290px;
         margin-top: 200px;
+        margin-left: 70px;
     }
 }
 
