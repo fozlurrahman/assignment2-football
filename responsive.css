@@ -207,7 +207,7 @@ css responsive style for tab screen
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         margin-left: 10px;
-
+        mar
     }
 
     .player {
