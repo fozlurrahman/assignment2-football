@@ -4,6 +4,10 @@ css responsive style for mobile screen
 
 @media only screen and (max-width:480px) {
 
+    body {
+        padding: 0;
+        margin: 0;
+    }
 
     /* header section */
     .header {
@@ -86,6 +90,7 @@ css responsive style for mobile screen
         text-overflow: ellipsis;
         margin-top: 30px;
         text-align: center;
+        width: 482px;
         margin-right: -50px;
 
     }
@@ -140,13 +145,14 @@ css responsive style for mobile screen
 
     /* fooeter section */
     .footer-section {
+        width: 480px;
         margin-top: 100px;
         height: 360px;
         overflow: hidden;
     }
 
     .footer-logo img {
-        width: 290px;
+        width: 260px;
         margin-top: 200px;
     }
 
@@ -164,9 +170,14 @@ css responsive style for tab screen
 
 @media only screen and (min-width:481px) and (max-width:768px) {
 
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
     /* header section */
     header {
-        width: 768px;
+        width: 750px;
         height: 940px;
 
     }
@@ -204,6 +215,7 @@ css responsive style for tab screen
 
     /* articale section */
     .Players {
+        max-width: 768px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         margin-left: 10px;
@@ -240,7 +252,7 @@ css responsive style for tab screen
 
     /* about section */
     .about-section {
-        width: 768px;
+        max-width: 768px;
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
@@ -276,6 +288,7 @@ css responsive style for tab screen
     /* footer section */
     .footer-section {
         margin-top: 200px;
+        max-width: 768;
         height: 360px;
         overflow: hidden;
         text-align: center;
