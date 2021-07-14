@@ -1,8 +1,11 @@
+/*--------- google font ----------------*/
 <link rel="preconnect"href="https://fonts.googleapis.com"><link rel="preconnect"href="https://fonts.gstatic.com"crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"rel="stylesheet">
-/* google font */
+/*----------- google font------------------ */
 
 
-/* custom css */
+/* -----------------------------------
+----------------custom css ------------
+---------------------------------------*/
 html {
     font-family: 'Poppins',
         sans-serif;
@@ -46,11 +49,14 @@ p {
     transition: .5s;
 }
 
-/* custom css */
+/* -----------------------------------
+----------------custom css end ------------
+---------------------------------------*/
 
 
 
-/*---header section start
+/*-------------------------
+   header section start
 ----------------------- */
 header {
     background: #2D25A0;
@@ -89,12 +95,14 @@ header {
     width: 100%;
 }
 
-/*---header section end
+/*------------------------
+header section end
 ----------------------- */
 
 
 
-/*---main section start
+/*-----------------------
+main section start
 ----------------------- */
 
 main {
@@ -102,11 +110,13 @@ main {
     margin: 0 auto;
 }
 
-/*---articale section start
+/*-------------------------
+articale section start
 ----------------------- ---*/
 
 
-/*---players section start
+/*--------------------------
+players section start
 ----------------------- ---*/
 .Players {
     display: grid;
@@ -149,10 +159,12 @@ main {
 
 }
 
-/*---players section end
+/*---------------------------
+players section end
 ----------------------- ---*/
 
-/*---copa-highlight section start
+/*---------------------------
+-copa-highlight section start
 ----------------------- ---*/
 
 .copa-highlight {
@@ -182,15 +194,19 @@ main {
     height: 427px;
 }
 
-/*---copa-highlight section end
+/*-----------------------------
+copa-highlight section end
 ----------------------- ---*/
 
-/*---main section start
+/*---------------------------
+----main section start
 ----------------------- */
 
 
 
-/* about section start */
+/* --------------------
+about section start 
+-----------------------*/
 
 .about-section {
     background-image: url(images/about.jpg);
@@ -271,9 +287,14 @@ main {
     transition: .5s;
 }
 
-/* about section end */
+/* -----------------
+about section end 
+-----------------------*/
 
-/* contact section start */
+
+/* ----------------------
+contact section start
+---------------------------- */
 
 .contact-section {
     width: 80%;
@@ -343,10 +364,14 @@ main {
 
 }
 
-/* contact section end */
+/* ------------------------
+contact section end
+------------------------------ */
 
 
-/* footer section start */
+/* ---------------------
+footer section start
+--------------------------- */
 
 .footer-section {
     width: 484px;
@@ -373,4 +398,6 @@ main {
 
 }
 
-/* footer section end */
+/* --------------------------------------
+footer section end 
+====================================*/

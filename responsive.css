@@ -1,6 +1,11 @@
+/* ----------------------------------------
+css responsive style for mobile screen 
+---------------------------------------------*/
+
 @media only screen and (max-width:480px) {
 
 
+    /* header section */
     .header {
         width: 360px;
         height: 695px;
@@ -36,14 +41,15 @@
     }
 
 
-
+    /* article section */
     .Players {
         width: 330px;
         display: grid;
-        margin-left: 20px;
+        margin-left: 24px;
         grid-template-columns: repeat(1, 1fr);
     }
 
+    /* copa highlight section */
     .copa-highlight {
         display: flex;
         flex-direction: column;
@@ -74,9 +80,9 @@
     }
 
 
+    /* about section */
+
     .about-section {
-
-
         text-overflow: ellipsis;
         margin-top: 30px;
         text-align: center;
@@ -85,7 +91,6 @@
     }
 
     .about-overly {
-
         margin-right: -50px;
     }
 
@@ -112,6 +117,7 @@
         transition: .5s;
     }
 
+    /* contact section */
     .contact-section {
         width: 360px;
         display: flex;
@@ -131,6 +137,8 @@
         margin-bottom: 100px;
     }
 
+
+    /* fooeter section */
     .footer-section {
         margin-top: 100px;
         height: 360px;
@@ -144,3 +152,143 @@
 
 
 }
+
+
+
+
+
+
+/* ----------------------------------------
+css responsive style for tab screen 
+---------------------------------------------*/
+
+@media only screen and (min-width:481px) and (max-width:768px) {
+
+    /* header section */
+    header {
+        width: 768px;
+        height: 940px;
+
+    }
+
+    .header-container {
+        width: 768px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-text {
+        width: 500px;
+        margin-left: 100px;
+        margin-top: 112px;
+    }
+
+    .header-text h1 {
+        font-size: 50px;
+    }
+
+    .header-banner {
+        width: 400px;
+        height: 360px;
+    }
+
+    .header-banner img {
+        width: 600px;
+        height: 400px;
+        margin-top: 70px;
+        margin-bottom: 60px;
+        margin-left: 70px;
+    }
+
+
+    /* articale section */
+    .Players {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 10px;
+
+    }
+
+    .player {
+        width: 280px;
+    }
+
+
+    /* copa highlight section */
+    .copa-highlight {
+        display: flex;
+        flex-direction: column;
+        margin-top: -50px;
+    }
+
+
+    .copa-text {
+        margin-bottom: 50px;
+    }
+
+    .copa-text h1 {
+        font-size: 38px;
+        margin-top: 100px;
+    }
+
+    .copa-banner img {
+        width: 640px;
+        height: 427px;
+    }
+
+
+    /* about section */
+    .about-section {
+        width: 768px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+
+    }
+
+    .about-section p {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .about-btn {
+        display: inline-block;
+    }
+
+
+    /* contact section */
+
+    .contact-banner {
+        display: none;
+    }
+
+    .contact-form {
+        display: block;
+        width: 600px;
+        margin-left: -240px;
+        margin-top: 300px;
+        margin-bottom: 100px;
+    }
+
+
+    /* footer section */
+    .footer-section {
+        margin-top: 200px;
+        height: 360px;
+        overflow: hidden;
+        text-align: center;
+        margin-left: 140px;
+    }
+
+    .footer-logo img {
+        width: 290px;
+        margin-top: 200px;
+    }
+}
+
+
+/* --------------------------
+the end css
+------------------------------- */
